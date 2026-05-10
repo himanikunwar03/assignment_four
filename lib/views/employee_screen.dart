@@ -46,7 +46,6 @@ class _EmployeeScreenState extends State<EmployeeScreen> {
     super.dispose();
   }
 
-  // ✅ ADD EMPLOYEE
   void _addEmployee() {
     if (_formKey.currentState!.validate()) {
       setState(() {
@@ -66,7 +65,6 @@ class _EmployeeScreenState extends State<EmployeeScreen> {
     }
   }
 
-  // ✅ CLEAR FIELDS
   void _clearFields() {
     _idController.clear();
     _fullNameController.clear();
@@ -77,7 +75,6 @@ class _EmployeeScreenState extends State<EmployeeScreen> {
     _selectedDepartment = null;
   }
 
-  // ✏️ EDIT EMPLOYEE
   void _editEmployee(int index) {
     final emp = _lstEmployees[index];
 
@@ -124,7 +121,6 @@ class _EmployeeScreenState extends State<EmployeeScreen> {
     );
   }
 
-  // 🗑 DELETE EMPLOYEE
   void _deleteEmployee(int index) {
     setState(() {
       _lstEmployees.removeAt(index);
@@ -204,7 +200,7 @@ class _EmployeeScreenState extends State<EmployeeScreen> {
 
               const SizedBox(height: 20),
 
-              // 🔥 BUTTON ROW (ADD + VIEW)
+
               Row(
                 children: [
                   // ADD
