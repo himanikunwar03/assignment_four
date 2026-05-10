@@ -8,7 +8,7 @@ class ImageGridViewScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Image Grid View"),
-        backgroundColor: const Color.fromARGB(255, 156, 141, 182),
+        backgroundColor: const Color.fromARGB(255, 127, 88, 196),
       ),
 
       body: Padding(
