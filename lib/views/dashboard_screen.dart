@@ -1,5 +1,6 @@
-import 'package:assignment4/views/employee_screen.dart';
-import 'package:assignment4/views/image_grid_view.dart';
+
+import 'package:assignment_four/views/employee_screen.dart';
+import 'package:assignment_four/views/image_grid.dart';
 import 'package:flutter/material.dart';
 
 class DashboardScreen extends StatelessWidget {
@@ -14,8 +15,8 @@ class DashboardScreen extends StatelessWidget {
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: [
-              const Color.fromARGB(255, 144, 126, 74),
-              const Color.fromARGB(255, 48, 38, 79),
+              const Color.fromARGB(255, 135, 110, 35),
+              const Color.fromARGB(255, 94, 63, 186),
             ],
           ),
         ),
@@ -56,8 +57,8 @@ class DashboardScreen extends StatelessWidget {
                         icon: Icons.people_alt_rounded,
                         gradient: LinearGradient(
                           colors: [
-                            const Color.fromARGB(255, 92, 136, 171),
-                            Colors.blue.shade700,
+                            const Color.fromARGB(255, 99, 78, 78),
+                            const Color.fromARGB(255, 50, 73, 94),
                           ],
                         ),
                         onTap: () {
@@ -80,8 +81,8 @@ class DashboardScreen extends StatelessWidget {
                         icon: Icons.image_rounded,
                         gradient: LinearGradient(
                           colors: [
-                            Colors.pink.shade400,
-                            const Color.fromARGB(255, 139, 75, 101),
+                            const Color.fromARGB(255, 128, 35, 66),
+                            const Color.fromARGB(255, 123, 58, 84),
                           ],
                         ),
                         onTap: () {

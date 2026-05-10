@@ -1,4 +1,5 @@
-import 'package:assignment4/models/employee_model.dart';
+
+import 'package:assignment_four/models/employee_model.dart';
 import 'package:flutter/material.dart';
 
 class EmployeeOutputScreen extends StatelessWidget {
